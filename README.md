@@ -4,7 +4,7 @@ Create Your custom payment gateway for woocommerce in wordpress
 
 If you want to create your custom payment gateway for some special users , like for some users having a specific role. Then it would be very helpful for you.
 
-I created this for my client's special requirement. I need to create a special payment gateway for users having role business owner (wholesale_customer). So that the business users can place an order without making a payment , and get a bill in the last of the month.
+I created this for my client's special requirement. I need to create a special payment gateway for users having role Wholesaler (wholesale_customer). So that the Wholesalers can place an order without making a payment , and get a bill in the last of the month.
 
 You can just place the whole code in theme's functions.php , or you can create your custom plugin with this code.
 If you faces any problem , feel free to contact me.
@@ -23,7 +23,7 @@ If you faces any problem , feel free to contact me.
 # Directions to use
 1. place this code in your active theme's functions.php
 2. You can update the payment gateway details from here https://yourdomain.com/wp-admin/admin.php?page=wc-settings&tab=checkout&section=pay_on_account_gateway
-
+3. When a user places and order using this payment gateway , order status would be "Payment On Account"
 
 
 
